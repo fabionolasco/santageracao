@@ -1,6 +1,7 @@
 @import './reset.scss';
 @import './variables.scss';
 @import '../../node_modules/foundation-sites/dist/css/foundation.min.css';
+@import './fontawesone.scss';
 @import './modifiers.scss';
 
 body {
@@ -13,3 +14,4 @@ main {
     font-size: 1.2rem;
     padding: 20px;
 }
+  

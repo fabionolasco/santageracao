@@ -4,27 +4,8 @@ header {
 
     display: block;
     width: 100%;
-    background-image: url('/IMG_2530.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 200px;
-    animation-duration: 20s;
-    animation-timing-function: ease;
-    animation-name: slidein;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-play-state: play;
-
-    @keyframes slidein {
-        from {
-            background-size: 100%;
-        }
-
-        to {
-            background-size: 120%;
-        }
-    }
+    position: relative;
+    overflow: hidden;
 
     &.header-full {
         height: 100vh !important;
@@ -33,6 +14,34 @@ header {
     &.header-partial {
         height: 300px;
         background-image: url('/IMG_2547.jpg');
+    }
+
+    .sg-background {
+
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url('/IMG_2548.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 200px;
+        animation-duration: 60s;
+        animation-timing-function: ease;
+        animation-name: slidein;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-play-state: play;
+    }
+
+    @keyframes slidein {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(1.24);
+        }
     }
 
 }

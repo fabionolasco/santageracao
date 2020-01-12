@@ -1,5 +1,24 @@
 footer {
+
     background-color: #2d3844;
     padding: 40px;
     font-size: 1.2rem;
+    color: #6e7a84;
+
+    .footer-title {
+        font-weight: bold;
+        color: #9aa5af;
+    }
+
+    .fab {
+        font-size: 1.8rem;
+        margin: 15px 24px 12px 0;
+    }
+
+}
+
+.rights {
+    line-height: 60px;
+    color: #6e7a84;
+    font-size: .85rem;
 }
