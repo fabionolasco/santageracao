@@ -5,10 +5,10 @@ import LayoutMain from '../components/layouts/layout-main';
 export default () => (
     <>
         <Helmet>
-            <title>Santa Geração - MP3</title>
+            <title>Santa Geração - Youtube</title>
         </Helmet>
-        <LayoutMain title="MP3" fullheader={false}>
-            MP3
+        <LayoutMain title="Youtuve" fullheader={false}>
+            Youtube
         </LayoutMain>
     </>
 )

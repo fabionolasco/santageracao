@@ -1,0 +1,38 @@
+@import '../../styles/variables.scss';
+
+header {
+
+    display: block;
+    width: 100%;
+    background-image: url('/IMG_2530.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 200px;
+    animation-duration: 20s;
+    animation-timing-function: ease;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: play;
+
+    @keyframes slidein {
+        from {
+            background-size: 100%;
+        }
+
+        to {
+            background-size: 120%;
+        }
+    }
+
+    &.header-full {
+        height: 100vh !important;
+    }
+
+    &.header-partial {
+        height: 300px;
+        background-image: url('/IMG_2547.jpg');
+    }
+
+}

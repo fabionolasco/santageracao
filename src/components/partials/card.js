@@ -1,10 +1,9 @@
 import React from 'react'
-import Card from '@material-ui/core/Card'
+import { Link } from 'gatsby'
+import './card.scss';
 
-export default ({children}) => (
-    <Card>
-        <article>
-            {children}
-        </article>
-    </Card>
+export default (props) => (
+    <Link to={`${props.to}`} className="sg-card card-shadow">
+        <span className="card-label">{props.children}</span>
+    </Link>
 )

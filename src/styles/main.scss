@@ -1,9 +1,15 @@
 @import './reset.scss';
 @import './variables.scss';
+@import '../../node_modules/foundation-sites/dist/css/foundation.min.css';
+@import './modifiers.scss';
 
-.MuiContainer-root {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+body {
+    font-family: Helvetica, Tahoma, Arial, sans-serif;
+    font-size: 10px;
+    background-color: #13181d;
+}
+
+main {
+    font-size: 1.2rem;
+    padding: 20px;
 }
