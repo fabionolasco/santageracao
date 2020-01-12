@@ -8,7 +8,9 @@ export default () => (
             <title>Santa Geração - Twitter</title>
         </Helmet>
         <LayoutMain title="Twitter" fullheader={false}>
-            Twitter
+            <main className="grid-x">
+                <div className="cell">Twitter</div>
+            </main>
         </LayoutMain>
     </>
 )

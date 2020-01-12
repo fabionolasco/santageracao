@@ -8,7 +8,9 @@ export default () => (
             <title>Santa Geração - Spotify</title>
         </Helmet>
         <LayoutMain title="Spotify" fullheader={false}>
-            Spotify
+            <main className="grid-x">
+                <div className="cell">Spotify</div>
+            </main>
         </LayoutMain>
     </>
 )

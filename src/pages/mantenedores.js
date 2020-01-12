@@ -8,7 +8,9 @@ export default () => (
             <title>Santa Geração - Mantenedores</title>
         </Helmet>
         <LayoutMain title="Mantenedores" fullheader={false}>
-            Mantenedores
+            <main className="grid-x">
+                <div className="cell">Mantenedores</div>
+            </main>
         </LayoutMain>
     </>
 )

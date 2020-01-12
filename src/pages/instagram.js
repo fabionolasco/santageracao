@@ -8,7 +8,9 @@ export default () => (
             <title>Santa Geração - Instagram</title>
         </Helmet>
         <LayoutMain title="Instagram" fullheader={false}>
-            Instagram
+            <main className="grid-x">
+                <div className="cell">Instagram</div>
+            </main>
         </LayoutMain>
     </>
 )

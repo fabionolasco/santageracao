@@ -8,7 +8,9 @@ export default () => (
             <title>Santa Geração - MP3</title>
         </Helmet>
         <LayoutMain title="MP3" fullheader={false}>
-            MP3
+            <main className="grid-x">
+                <div className="cell">MP3</div>
+            </main>
         </LayoutMain>
     </>
 )

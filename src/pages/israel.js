@@ -8,7 +8,9 @@ export default () => (
             <title>Santa Geração - Israel</title>
         </Helmet>
         <LayoutMain title="Israel" fullheader={false}>
-            Israel
+            <main className="grid-x">
+                <div className="cell">Israel</div>
+            </main>
         </LayoutMain>
     </>
 )
