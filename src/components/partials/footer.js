@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import Channels from './channels'
 import './footer.scss'
 
 export default () => (
@@ -27,12 +27,8 @@ export default () => (
                 (46) 9.9912-9620 (Tim) (WhatsApp)<br />
                 Ivanir Antonio<br />
                 <br />
-                <span className="footer-title">Social Networks:</span><br />
-                <a><i className="fab fa-facebook"></i></a>
-                <a><i className="fab fa-twitter"></i></a>
-                <a><i className="fab fa-instagram"></i></a>
-                <a><i className="fab fa-spotify"></i></a>
-                <a><i className="fab fa-amazon"></i></a>
+                <span className="footer-title">Canais:</span><br />
+                <Channels />
             </div>
         </footer>
         <div className="grid-x rights">

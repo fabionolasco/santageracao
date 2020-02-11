@@ -1,5 +1,9 @@
 @import '../../styles/variables.scss';
 
+.sg-header-wrapper {
+    position: relative;
+}
+
 header {
 
     display: block;
@@ -49,4 +53,25 @@ header {
         }
     }
 
+    .sg-logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 20;
+    }
+
+}
+
+.sg-header-channels {
+    display: block;
+    position: absolute;
+    width: auto;
+    z-index: 20;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    a {
+        color: rgba(0, 0, 0, .5);
+        margin: 0 10px;
+    }
 }
